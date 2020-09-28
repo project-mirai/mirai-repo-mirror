@@ -1,14 +1,26 @@
 {
-    "mirai-console": {
+    "net.mamoe:mirai-console": {
         "name": "Mirai Console",
-        "description": "Mirai Console后端"
+        "description": "Mirai Console后端",
+        "channels": ["stable", "nightly", "beta"],
+        "website": "https://github.com/mamoe/mirai-console"
     },
-    "mirai-console-pure": {
-        "name": "Mirai Console Pure",
-        "description": "Mirai Console Pure前端实现"
+    "net.mamoe:mirai-console-terminal": {
+        "name": "Mirai Console Terminal",
+        "description": "Mirai Console 终端前端",
+        "channels": ["stable", "nightly", "beta"],
+        "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
     },
-    "mirai-core-qqandroid": {
+    "net.mamoe:mirai-core-qqandroid": {
         "name": "Mirai Core QQ Android",
-        "description": "Mirai Core QQ Android协议实现"
+        "description": "Mirai Core QQ Android协议实现",
+        "channels": ["stable", "nightly", "beta"],
+        "website": "https://github.com/mamoe/mirai"
+    },
+    "org.itxtech:mirai-native": {
+        "name": "Mirai Native",
+        "description": "强大的mirai原生插件加载器",
+        "channels": ["stable", "beta"],
+        "website": "https://github.com/iTXTech/mirai-native"
     }
 }
