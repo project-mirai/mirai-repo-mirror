@@ -2,6 +2,6 @@
     "channels": {
         "stable": ["1.0-M4"],
         "beta": ["1.0-M4"],
-        "nightly": ["1.0-RC-dev-29"]
+        "nightly": ["1.0-RC-dev-29", "1.0-RC-dev-31", "1.0-RC-dev-32"]
     }
 }
