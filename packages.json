@@ -22,5 +22,11 @@
         "description": "强大的mirai原生插件加载器",
         "channels": ["stable", "beta"],
         "website": "https://github.com/iTXTech/mirai-native"
+    },
+    "net.mamoe:mirai-slf4j-bridge": {
+        "name": "Mirai Slf4j Bridge",
+        "description": "桥接 SLF4J 到 MiraiLogger",
+        "channels": ["stable", "nightly"],
+        "website": "https://github.com/project-mirai/mirai-slf4j-bridge"
     }
 }
