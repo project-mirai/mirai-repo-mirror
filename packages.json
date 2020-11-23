@@ -11,6 +11,12 @@
         "channels": ["stable", "nightly", "beta"],
         "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
     },
+    "net.mamoe:mirai-console-pure": {
+        "name": "Mirai Console Pure",
+        "description": "Mirai Console 终端前端（已弃用）",
+        "channels": ["stable"],
+        "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
+    },
     "net.mamoe:mirai-core-qqandroid": {
         "name": "Mirai Core QQ Android",
         "description": "Mirai Core QQ Android协议实现",
