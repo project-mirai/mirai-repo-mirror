@@ -1,7 +1,7 @@
 {
     "net.mamoe:mirai-console": {
         "name": "Mirai Console",
-        "description": "Mirai Console后端",
+        "description": "Mirai Console 后端",
         "channels": ["stable", "nightly", "beta"],
         "website": "https://github.com/mamoe/mirai-console"
     },
