@@ -1,5 +1,7 @@
 {
     "channels": {
-        "stable": ["1.0-M4"]
+        "stable": [
+            "1.0-M4"
+        ]
     }
 }

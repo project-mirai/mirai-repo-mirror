@@ -2,37 +2,57 @@
     "net.mamoe:mirai-console": {
         "name": "Mirai Console",
         "description": "Mirai Console 后端",
-        "channels": ["stable", "nightly", "beta"],
+        "channels": [
+            "stable",
+            "nightly",
+            "beta"
+        ],
         "website": "https://github.com/mamoe/mirai-console"
     },
     "net.mamoe:mirai-console-terminal": {
         "name": "Mirai Console Terminal",
         "description": "Mirai Console 终端前端",
-        "channels": ["stable", "nightly", "beta"],
+        "channels": [
+            "stable",
+            "nightly",
+            "beta"
+        ],
         "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
     },
     "net.mamoe:mirai-console-pure": {
         "name": "Mirai Console Pure",
         "description": "Mirai Console 终端前端（已弃用）",
-        "channels": ["stable"],
+        "channels": [
+            "stable"
+        ],
         "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
     },
     "net.mamoe:mirai-core-qqandroid": {
         "name": "Mirai Core QQ Android",
         "description": "Mirai Core QQ Android协议实现",
-        "channels": ["stable", "nightly", "beta"],
+        "channels": [
+            "stable",
+            "nightly",
+            "beta"
+        ],
         "website": "https://github.com/mamoe/mirai"
     },
     "org.itxtech:mirai-native": {
         "name": "Mirai Native",
         "description": "强大的mirai原生插件加载器",
-        "channels": ["stable", "beta"],
+        "channels": [
+            "stable",
+            "beta"
+        ],
         "website": "https://github.com/iTXTech/mirai-native"
     },
     "net.mamoe:mirai-slf4j-bridge": {
         "name": "Mirai Slf4j Bridge",
         "description": "桥接 SLF4J 到 MiraiLogger",
-        "channels": ["stable", "nightly"],
+        "channels": [
+            "stable",
+            "nightly"
+        ],
         "website": "https://github.com/project-mirai/mirai-slf4j-bridge"
     }
 }
