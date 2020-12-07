@@ -54,5 +54,13 @@
             "nightly"
         ],
         "website": "https://github.com/project-mirai/mirai-slf4j-bridge"
+    },
+    "net.mamoe:chat-command": {
+        "name": "Chat Command",
+        "description": "允许在聊天环境执行指令",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/project-mirai/chat-command"
     }
 }
