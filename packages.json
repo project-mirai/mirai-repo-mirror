@@ -62,5 +62,14 @@
             "stable"
         ],
         "website": "https://github.com/project-mirai/chat-command"
+    },
+    "org.itxtech:mirai-js": {
+        "name": "Mirai Js",
+        "description": "强大的 Mirai JavaScript 插件运行时",
+        "channels": [
+            "stable",
+            "beta"
+        ],
+        "website": "https://github.com/iTXTech/mirai-js"
     }
 }
