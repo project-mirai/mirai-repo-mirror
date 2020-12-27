@@ -1,0 +1,7 @@
+{
+    "channels": {
+        "nightly": [
+            "1.0-dev-4"
+        ]
+    }
+}
