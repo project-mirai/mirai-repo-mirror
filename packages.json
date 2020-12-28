@@ -58,7 +58,9 @@
     "net.mamoe:mirai-login-solver-selenium": {
         "name": "mirai login solver selenium",
         "description": "解决滑动验证码",
-        "channels": ["nightly"],
+        "channels": [
+            "nightly"
+        ],
         "website": "https://github.com/project-mirai/mirai-login-solver-selenium"
     },
     "net.mamoe:chat-command": {
