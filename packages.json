@@ -79,5 +79,13 @@
             "beta"
         ],
         "website": "https://github.com/iTXTech/mirai-js"
+    },
+    "net.mamoe:mirai-api-http": {
+        "name": "Mirai HTTP API",
+        "description": "提供HTTP API供所有语言使用mirai",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/project-mirai/mirai-api-http"
     }
 }
