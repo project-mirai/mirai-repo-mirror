@@ -13,6 +13,23 @@
 * [Gitee](https://gitee.com/peratx/mirai-repo) - 主仓库
 * [GitHub](https://github.com/project-mirai/mirai-repo-mirror) - GitHub镜像
 
+## `package.json` 参考格式
+
+```json
+{
+    "announcement": "包公告",
+    "type": "core/plugin-jar/plugin-native/plugin-js等",
+    "channels": {
+        "stable": [
+            "1.0.0"
+        ]
+    },
+    "repo": {
+        "1.0.0": "https://example.org/org/example/1.0.0/example.zip"
+    }
+}
+```
+
 ## 开源许可证
 
     Copyright (C) 2020-2021 iTX Technologies
