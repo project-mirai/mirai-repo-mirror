@@ -8,6 +8,11 @@
 1. `JAR`必须已在`Maven Central`或`JCenter`上线（暂定，之后会支持更多途径）
 1. 提交`Pull Request`
 
+## 仓库链接
+
+* [Gitee](https://gitee.com/peratx/mirai-repo) - 主仓库
+* [GitHub](https://github.com/project-mirai/mirai-repo-mirror) - GitHub镜像
+
 ## 开源许可证
 
     Copyright (C) 2020-2021 iTX Technologies
