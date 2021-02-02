@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+git branch
+
 git config --local user.name "RepoSync"
 git config --local user.email "RepoSync@localhost"
 git config --local pull.rebase "false"
@@ -11,6 +13,9 @@ target=$1
 source=$2
 
 echo Syncing repos...
+
+git fetch --all
+
 
 git pull "$source" master
 git pull "$target" master
@@ -24,6 +29,9 @@ git push "$source" master
 git push "$target" master
 
 echo Re Updating repos...
+
+git fetch
+git merge
 
 git pull "$source" master
 git pull "$target" master
