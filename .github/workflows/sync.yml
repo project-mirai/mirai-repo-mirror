@@ -21,7 +21,7 @@ jobs:
       - name: "Pull repo"
         run: "git pull origin master"
       - name: Checkout
-        run: "git checkout -b master --track github/master"
+        run: "git checkout -B master --track github/master"
       - name: Save Key
         run: 'echo "$SYNC_KEY" > .script/id_rsa'
         shell: bash
