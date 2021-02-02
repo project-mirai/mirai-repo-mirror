@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Save Key
-        uses: DamianReeves/write-file-action
+        uses: DamianReeves/write-file-action@v1.0
         with:
           path: .script/id_rsa
           contents: ${{ secrets.SYNC_KEY }}
