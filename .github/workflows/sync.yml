@@ -26,6 +26,10 @@ jobs:
         run: "git pull github master"
       - name: Checkout
         run: "git checkout -B master --track github/master"
+      - name: "Pre re-save-key"
+        run: |
+          rm .script/id_rsa
+          exit 0
       - name: Re-save Key
         run: 'echo "$SYNC_KEY" > .script/id_rsa'
         shell: bash
