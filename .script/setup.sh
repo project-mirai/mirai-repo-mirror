@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+mkdir ~/.ssh
 ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
 
