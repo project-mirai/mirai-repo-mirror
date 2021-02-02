@@ -43,6 +43,8 @@ git pull "$target" master
 
 git push "$source" master
 git push "$target" master
+# Bug Gitee
+git push -f "$target" master
 
 git config --local --unset core.sshCommand
 git config --local --unset user.name
