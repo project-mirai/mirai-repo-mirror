@@ -4,7 +4,7 @@ git config --local user.name "RepoSync"
 git config --local user.email "RepoSync@localhost"
 
 chmod 400 ./.script/id_rsa
-git config --local core.sshCommand "ssh -i ./.script/id_rsa -F /dev/null"
+git config --local core.sshCommand "ssh -i ./.script/id_rsa -F /dev/null -v"
 
 target=$1
 source=$2
