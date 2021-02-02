@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Repo Sync On Push
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  # This workflow contains a single job called "build"
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Save Key
+        uses: DamianReeves/write-file-action
+        with:
+          path: .script/id_rsa
+          contents: ${{ secrets.SYNC_KEY }}
+          write-mode: overwrite
+      - name: Setup repo
+        run: "sh .script\setup.sh github gitee"
+      - name: Do Sync
+        run: "sh .script/dosync.sh github gitee"
+
