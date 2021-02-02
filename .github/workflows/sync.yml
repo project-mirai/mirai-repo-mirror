@@ -16,13 +16,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Setup repo
+        run: "sh .script/setup.sh github gitee"
+      - name: "Pull repo"
+        run: "git pull origin master"
+      - name: Checkout
+        run: "git checkout -b master --track github/master"
       - name: Save Key
         run: 'echo "$SYNC_KEY" > .script/id_rsa'
         shell: bash
         env:
           SYNC_KEY: ${{secrets.SYNC_KEY}}
-      - name: Setup repo
-        run: "sh .script/setup.sh github gitee"
       - name: Do Sync
         run: "sh .script/dosync.sh github gitee"
 
