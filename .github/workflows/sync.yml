@@ -23,7 +23,7 @@ jobs:
           contents: ${{ secrets.SYNC_KEY }}
           write-mode: overwrite
       - name: Setup repo
-        run: "sh .script\setup.sh github gitee"
+        run: "sh .script/setup.sh github gitee"
       - name: Do Sync
         run: "sh .script/dosync.sh github gitee"
 
