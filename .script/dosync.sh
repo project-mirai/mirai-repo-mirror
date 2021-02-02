@@ -9,6 +9,11 @@ git config --local pull.rebase "false"
 chmod 400 ./.script/id_rsa
 git config --local core.sshCommand "ssh -i ./.script/id_rsa -F /dev/null -v"
 
+git log --all | head
+
+ssh -i ./.script/id_rsa -T git@gitee.com
+ssh -i ./.script/id_rsa -T git@github.com
+
 target=$1
 source=$2
 
