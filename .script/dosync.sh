@@ -14,8 +14,8 @@ git log --all | head
 ssh -i ./.script/id_rsa -T git@gitee.com
 ssh -i ./.script/id_rsa -T git@github.com
 
-target=$1
-source=$2
+source=$1
+target=$2
 
 echo Syncing repos...
 
@@ -43,6 +43,8 @@ git pull "$target" master
 
 git push "$source" master
 git push "$target" master
+
+echo Finally force push to "$target"
 # Bug Gitee
 git push -f "$target" master
 
