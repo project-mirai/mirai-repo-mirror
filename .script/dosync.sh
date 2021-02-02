@@ -23,6 +23,14 @@ echo Updating repos...
 git push "$source" master
 git push "$target" master
 
+echo Re Updating repos...
+
+git pull "$source" master
+git pull "$target" master
+
+git push "$source" master
+git push "$target" master
+
 git config --local --unset core.sshCommand
 git config --local --unset user.name
 git config --local --unset user.email
