@@ -23,7 +23,7 @@ jobs:
         shell: bash
         env:
           SYNC_KEY: ${{secrets.SYNC_KEY}}
-      me: "Pull repo"
+      - name: "Pull repo"
         run: "git pull github master"
       - name: Checkout
         run: "git checkout -B master --track github/master"
