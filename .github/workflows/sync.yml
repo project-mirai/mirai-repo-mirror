@@ -19,7 +19,7 @@ jobs:
       - name: Setup repo
         run: "sh .script/setup.sh github gitee"
       - name: "Pull repo"
-        run: "git pull origin master"
+        run: "git pull github master"
       - name: Checkout
         run: "git checkout -B master --track github/master"
       - name: Save Key
