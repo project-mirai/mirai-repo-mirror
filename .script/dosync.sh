@@ -38,6 +38,10 @@ echo Re Updating repos...
 git fetch
 git merge
 
+git fetch --unshallow "$source"
+git fetch --unshallow "$target"
+git merge
+
 git pull "$source" master
 git pull "$target" master
 
