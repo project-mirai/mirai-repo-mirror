@@ -48,10 +48,6 @@ git pull "$target" master
 git push "$source" master
 git push "$target" master
 
-echo Finally force push to "$target"
-# Bug Gitee
-git push -f "$target" master
-
 git config --local --unset core.sshCommand
 git config --local --unset user.name
 git config --local --unset user.email
