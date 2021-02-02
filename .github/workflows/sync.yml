@@ -18,11 +18,16 @@ jobs:
 
       - name: Setup repo
         run: "sh .script/setup.sh github gitee"
-      - name: "Pull repo"
+      - name: Save Key
+        run: 'echo "$SYNC_KEY" > .script/id_rsa'
+        shell: bash
+        env:
+          SYNC_KEY: ${{secrets.SYNC_KEY}}
+      me: "Pull repo"
         run: "git pull github master"
       - name: Checkout
         run: "git checkout -B master --track github/master"
-      - name: Save Key
+      - name: Re-save Key
         run: 'echo "$SYNC_KEY" > .script/id_rsa'
         shell: bash
         env:
