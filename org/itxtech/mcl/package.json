@@ -2,6 +2,12 @@
     "announcement": "Mirai Console Loader 公告栏\n",
     "channels": {
         "stable": [
+            "1.0.5"
         ]
+    },
+    "repo": {
+        "1.0.5": {
+            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.0.5/mcl-1.0.5.zip"
+        }
     }
 }
