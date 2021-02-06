@@ -87,5 +87,13 @@
             "stable"
         ],
         "website": "https://github.com/project-mirai/mirai-api-http"
+    },
+    "org.itxtech:mcl": {
+        "name": "Mirai Console Loader",
+        "description": "模块化、轻量级且支持完全自定义的 mirai 加载器",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/iTXTech/mirai-console-loader"
     }
 }

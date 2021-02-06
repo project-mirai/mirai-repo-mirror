@@ -2,13 +2,21 @@
 
 用于放置包版本信息。
 
-## 如何在此仓库被列出
+## 使用本仓库的软件
 
-1. 包**必须遵循**`AGPLv3`协议开源
-1. `JAR`必须已在`Maven Central`或`JCenter`上线（暂定，之后会支持更多途径）
+* [iTXTech Mirai Console Loader](https://github.com/iTXTech/mirai-console-loader)
+
+## 如何添加包到本仓库
+
+1. 包**必须遵循**`AGPLv3`开源
 1. 提交`Pull Request`
 
-## 仓库链接
+## 下载途径
+
+1. `Maven Central` - 如果`repo`字段没有定义讲默认使用
+1. 使用`repo`字段为每个版本定义
+
+## 仓库镜像
 
 * [Gitee](https://gitee.com/peratx/mirai-repo) - 主仓库
 * [GitHub](https://github.com/project-mirai/mirai-repo-mirror) - GitHub镜像
@@ -25,7 +33,10 @@
         ]
     },
     "repo": {
-        "1.0.0": "https://example.org/org/example/1.0.0/example.zip"
+        "1.0.0": {
+            "archive": "https://example.org/org/example/1.0.0/example.zip",
+            "metadata": "https://example.org/org/example/1.0.0/example.metadata"
+        }
     }
 }
 ```
