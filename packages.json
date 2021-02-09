@@ -27,9 +27,9 @@
         ],
         "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
     },
-    "net.mamoe:mirai-core-qqandroid": {
-        "name": "Mirai Core QQ Android",
-        "description": "Mirai Core QQ Android协议实现",
+    "net.mamoe:mirai-core-all": {
+        "name": "Mirai Core",
+        "description": "Mirai Core",
         "channels": [
             "stable",
             "nightly",
