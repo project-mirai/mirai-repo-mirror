@@ -3,7 +3,8 @@
     "channels": {
         "stable": [
             "1.0.5",
-            "1.1.0"
+            "1.1.0",
+            "1.2.1"
         ]
     },
     "repo": {
@@ -12,6 +13,9 @@
         },
         "1.1.0": {
             "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.1.0/mcl-1.1.0.zip"
+        },
+        "1.2.1": {
+            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.1/mcl-1.2.1.zip"
         }
     }
 }
