@@ -27,6 +27,7 @@
 {
     "announcement": "包公告",
     "type": "core/plugin-jar/plugin-native/plugin-js等",
+    "defaultChannel": "stable",
     "channels": {
         "stable": [
             "1.0.0"

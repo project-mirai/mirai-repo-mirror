@@ -1,4 +1,6 @@
 {
+    "type": "plugin-jar",
+    "defaultChannel": "nightly",
     "channels": {
         "nightly": [
             "1.0-dev-4",

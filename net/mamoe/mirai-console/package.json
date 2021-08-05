@@ -1,4 +1,6 @@
 {
+    "type": "core",
+    "defaultChannel": "stable",
     "channels": {
         "stable": [
             "1.0-M4",

@@ -1,5 +1,6 @@
 {
     "type": "plugin-jar",
+    "defaultChannel": "nightly",
     "channels": {
         "nightly": [
             "2.7-RC-dev4"

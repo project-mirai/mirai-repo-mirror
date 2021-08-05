@@ -1,4 +1,6 @@
 {
+    "type": "plugin-jar",
+    "defaultChannel": "beta",
     "channels": {
         "stable": [
             "1.9.3",

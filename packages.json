@@ -100,7 +100,6 @@
         "name": "MiraiCP",
         "description": "Mirai的一个C++ SDK",
         "channels": [
-            "stable",
             "nightly"
         ],
         "website": "https://github.com/Nambers/MiraiCP"
