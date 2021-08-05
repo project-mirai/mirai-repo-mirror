@@ -95,5 +95,14 @@
             "stable"
         ],
         "website": "https://github.com/iTXTech/mirai-console-loader"
+    },
+    "io.github.nambers:MiraiCP-plugin": {
+        "name": "MiraiCP",
+        "description": "Mirai的一个C++ SDK",
+        "channels": [
+            "stable",
+            "nightly"
+        ],
+        "website": "https://github.com/Nambers/MiraiCP"
     }
 }

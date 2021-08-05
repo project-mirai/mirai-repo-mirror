@@ -1,0 +1,8 @@
+{
+    "type": "plugin-jar",
+    "channels": {
+        "nightly": [
+            "2.7-RC-dev4"
+        ]
+    }
+}
