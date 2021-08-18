@@ -1,0 +1,15 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "nightly",
+  "channels": {
+    "nightly": [
+      "2.5-RC-dev-3+5.3-SNAPSHOT"
+    ]
+  },
+  "repo": {
+    "2.5-RC-dev-3+5.3-SNAPSHOT": {
+      "archive": "https://karlatemp.coding.net/p/pub/d/pub/git/raw/master/lpm/LuckPerms-Mirai-2.5-RC-dev-3%2B5.3-SNAPSHOT-all.jar",
+      "metadata": ""
+    }
+  }
+}
