@@ -1,7 +1,7 @@
 {
     "type": "core",
     "defaultChannel": "stable",
-    "announcement": "Mirai Console Loader 公告栏\n\n[mirai-console] 最近, 项目组发现了权限系统可能会被错误的提前加载导致的3rd权限系统无法正确加载\n\n于是决定, 于 2.6 起, 超前访问权限系统将得到一个错误并中断插件加载, 请各开发者及时检查\n\n影响范围: https://github.com/mamoe/mirai-console/pull/307\n\n",
+    "announcement": "Mirai Console Loader 公告栏\n\n关于 Bot is closed manually\nhttps://mirai.mamoe.net/topic/604/\n",
     "channels": {
         "stable": [
             "1.0.5",
