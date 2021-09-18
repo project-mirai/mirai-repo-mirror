@@ -103,5 +103,13 @@
             "nightly"
         ],
         "website": "https://github.com/Nambers/MiraiCP"
+    },
+    "xyz.cssxsh:weibo-helper": {
+        "name": "Weibo Helper",
+        "description": "简单的微博转发插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/cssxsh/weibo-helper"
     }
 }
