@@ -111,5 +111,13 @@
             "stable"
         ],
         "website": "https://github.com/cssxsh/weibo-helper"
+    },
+    "io.github.gnuf0rce:rss-helper": {
+        "name": "Rss Helper",
+        "description": "简单的RSS订阅插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/gnuf0rce/rss-helper"
     }
 }
