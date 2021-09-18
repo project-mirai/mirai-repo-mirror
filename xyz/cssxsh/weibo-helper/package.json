@@ -1,0 +1,9 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.2.7",
+    ]
+  }
+}
