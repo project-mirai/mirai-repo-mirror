@@ -111,5 +111,29 @@
             "stable"
         ],
         "website": "https://github.com/cssxsh/weibo-helper"
+    },
+    "xyz.cssxsh:arknights-helper": {
+        "name": "Arknights Helper",
+        "description": "明日方舟 助手插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/cssxsh/arknights-helper"
+    },
+    "xyz.cssxsh:bilibili-helper": {
+        "name": "BiliBili Helper",
+        "description": "哔哩哔哩 订阅插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/cssxsh/bilibili-helper"
+    },
+    "io.github.gnuf0rce:rss-helper": {
+        "name": "Rss Helper",
+        "description": "简单的RSS订阅插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/gnuf0rce/rss-helper"
     }
 }
