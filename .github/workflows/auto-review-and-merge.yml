@@ -1,0 +1,26 @@
+name: Auto Review
+
+on:
+  pull_request_target:
+    types: [ready_for_review]
+
+jobs:
+  start-review:
+    steps:
+      - uses: actions/checkout@v2
+      - run: "mkdir tmp"
+      - name: Pre setup
+        run: >
+          git --no-pager diff "$GITHUB_REF..$GITHUB_SHA" --no-color --output tmp/change-diff
+          git --no-pager diff "$GITHUB_REF..$GITHUB_SHA" --name-only --output tmp/name-changed
+
+          git checkout "$GITHUB_SHA" -- .script
+          git checkout "$GITHUB_SHA" -- protected
+      - run: cat .script/check-pr.js
+      - run: node .script/check-pr.js
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ACTOR: ${{ github.event.pull_request.user.login }}
+          PR_NUM: ${{ github.event.pull_request.number }}
+          REPO_N: ${{ github.event.repository.full_name }}
+
