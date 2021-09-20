@@ -11,6 +11,14 @@ async function main() {
     console.log("Main called");
     console.log("Conf: ", config);
 
+    const RW_TOKEN = (() => {
+        let token = process.env.RW_TOKEN;
+        if (token !== undefined && token.length > 0) {
+            return token;
+        }
+        return process.env.GH_TOKEN;
+    })();
+
     function inDomain(thiz, target) {
         thiz = thiz.replace(/\//g, '.');
         console.log("[inDomain] Checking " + thiz + " is in " + target);
@@ -31,7 +39,7 @@ async function main() {
             headers: {
                 'User-Agent': 'NodeJs/10',
                 'Content-Type': 'application/vnd.github.v3+json',
-                'Authorization': `token ${process.env.GH_TOKEN}`
+                'Authorization': `token ${RW_TOKEN}`
             }
         });
         req.on('error', msg => {
@@ -108,7 +116,7 @@ async function main() {
         headers: {
             'User-Agent': 'NodeJs/10',
             'Content-Type': 'application/vnd.github.v3+json',
-            'Authorization': `token ${process.env.GH_TOKEN}`,
+            'Authorization': `token ${RW_TOKEN}`,
         }
     }, rsp => {
         rsp.on('data', d => {

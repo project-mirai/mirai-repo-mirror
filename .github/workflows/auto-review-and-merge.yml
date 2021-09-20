@@ -30,6 +30,7 @@ jobs:
       - run: node .script/check-pr.js
         env:
           GH_TOKEN: ${{ github.token }}
+          RW_TOKEN: ${{ secrets.REVIEWER_TOKEN }}
           ACTOR: ${{ github.event.pull_request.user.login }}
           REPO_N: ${{ github.event.repository.full_name }}
 
