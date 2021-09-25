@@ -1,7 +1,7 @@
 {
     "type": "core",
     "defaultChannel": "stable",
-    "announcement": "Mirai Console Loader 公告栏\n\n关于 Bot is closed manually\nhttps://mirai.mamoe.net/topic/604/\n",
+    "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n",
     "channels": {
         "stable": [
             "1.0.5",
