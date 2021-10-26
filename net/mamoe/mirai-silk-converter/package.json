@@ -1,0 +1,9 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "beta",
+  "channels": {
+    "beta": [
+      "0.0.5"
+    ]
+  }
+}

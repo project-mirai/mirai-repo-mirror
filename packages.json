@@ -71,6 +71,12 @@
         ],
         "website": "https://github.com/project-mirai/chat-command"
     },
+    "net.mamoe:mirai-silk-converter": {
+        "name": "Silk Converter",
+        "description": "Convert audios to silk format",
+        "channels": ["beta"],
+        "website": "https://github.com/project-mirai/mirai-silk-converter"
+    },
     "org.itxtech:mirai-js": {
         "name": "Mirai Js",
         "description": "强大的 Mirai JavaScript 插件运行时",
