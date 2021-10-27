@@ -2,6 +2,8 @@ name: Auto Review
 
 on:
   pull_request_target:
+    branches:
+      - master
     types:
       - ready_for_review
       - opened

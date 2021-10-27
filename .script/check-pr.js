@@ -1,5 +1,6 @@
 let fs = require('fs');
 let config = require('../protected/config')
+const https = require("https");
 let actor = process.env.ACTOR;
 
 const APPROVE = 'APPROVE';
@@ -25,32 +26,41 @@ async function main() {
         return thiz === target || thiz.startsWith(target + '.')
     }
 
-    async function fireError(content, type) {
+    function fireError(content, type) {
         console.log("FIRE ERROR:", content);
         if (type === undefined) {
             type = 'REQUEST_CHANGES';
         }
         let https = require('https');
-        let req = https.request({
-            host: 'api.github.com',
-            port: 443,
-            path: `/repos/${process.env.REPO_N}/pulls/${process.env.PR_NUM}/reviews`,
-            method: 'POST',
-            headers: {
-                'User-Agent': 'NodeJs/10',
-                'Content-Type': 'application/vnd.github.v3+json',
-                'Authorization': `token ${RW_TOKEN}`
-            }
+        return new Promise((resolve, reject) => {
+            let req = https.request({
+                host: 'api.github.com',
+                port: 443,
+                path: `/repos/${process.env.REPO_N}/pulls/${process.env.PR_NUM}/reviews`,
+                method: 'POST',
+                headers: {
+                    'User-Agent': 'NodeJs/10',
+                    'Content-Type': 'application/vnd.github.v3+json',
+                    'Authorization': `token ${RW_TOKEN}`
+                }
+            }, res => {
+                if (res.statusCode !== 200) {
+                    res.on('data', buf => {
+                        process.stderr.write(buf);
+                    });
+                }
+            });
+            req.on('close', resolve);
+            req.on('error', msg => {
+                console.error(msg);
+                process.exit(1);
+            });
+            req.write(JSON.stringify({
+                body: content,
+                event: type,
+            }));
+            req.end();
         });
-        req.on('error', msg => {
-            console.error(msg);
-            process.exit(1);
-        });
-        req.write(JSON.stringify({
-            body: content,
-            event: type,
-        }));
-        req.end();
     }
 
     let nameChanged = fs.readFileSync('tmp/name-changed').toString('utf-8').trim();
@@ -108,6 +118,27 @@ async function main() {
     const commitCount = parseInt(fs.readFileSync("tmp/count").toString('utf-8'));
     await fireError("OK", APPROVE);
 
+    let doSquash = commitCount !== 1;
+    let method = doSquash ? 'squash' : 'merge';
+    if (!doSquash) {
+        let childProcess = require('child_process');
+        childProcess.spawnSync(
+            'git',
+            ['remote', 'add', 'token',
+                'https://x-access-token:' + RW_TOKEN + '@github.com/' + process.env.REPO_N + '/'
+            ],
+            {stdio: 'inherit'}
+        );
+        let proc = childProcess.spawnSync(
+            'git',
+            ['push', 'token', 'THE_PR:master'],
+            {stdio: 'inherit'}
+        );
+        if (proc.status === 0) {
+            method = 'rebase';
+        }
+    }
+
     let mergeRequest = require('https').request({
         host: 'api.github.com',
         port: 443,
@@ -127,7 +158,7 @@ async function main() {
     console.log("Merge with sha " + sha);
     mergeRequest.write(JSON.stringify({
         sha: sha,
-        merge_method: commitCount > 1 ? 'squash' : 'merge',
+        merge_method: method,
     }));
     mergeRequest.end();
 }
