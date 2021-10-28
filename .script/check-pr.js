@@ -129,6 +129,11 @@ async function main() {
             ],
             {stdio: 'inherit'}
         );
+        childProcess.spawnSync(
+            'git',
+            ['config', '--local', 'http.https://github.com/.extraheader', 'AUTHORIZATION: token ' + RW_TOKEN],
+            {stdio: 'inherit'}
+        );
         let proc = childProcess.spawnSync(
             'git',
             ['push', 'token', 'THE_PR:master'],
