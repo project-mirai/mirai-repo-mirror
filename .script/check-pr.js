@@ -125,7 +125,7 @@ async function main() {
         childProcess.spawnSync(
             'git',
             ['remote', 'add', 'token',
-                'https://x-access-token:' + RW_TOKEN + '@github.com/' + process.env.REPO_N + '/'
+                'https://x-access-token:' + RW_TOKEN + '@github.com/' + process.env.REPO_N + '.git'
             ],
             {stdio: 'inherit'}
         );
