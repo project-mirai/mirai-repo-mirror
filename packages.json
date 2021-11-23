@@ -134,6 +134,14 @@
         ],
         "website": "https://github.com/cssxsh/bilibili-helper"
     },
+    "xyz.cssxsh.mirai:mirai-selenium-plugin": {
+        "name": "Mirai Selenium Plugin",
+        "description": "Mirai Selenium 前置插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/cssxsh/mirai-selenium-plugin"
+    },
     "io.github.gnuf0rce:rss-helper": {
         "name": "Rss Helper",
         "description": "简单的RSS订阅插件",
