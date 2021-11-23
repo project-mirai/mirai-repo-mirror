@@ -1,4 +1,5 @@
 {
+    "announcement": "从 1.2.5 版本开始 将截图部分功能的转移至 https://github.com/cssxsh/mirai-selenium-plugin \n 如需使用截图模式，请安装 ./mcl --update-package xyz.cssxsh.mirai:mirai-selenium-plugin --channel stable --type plugin",
     "type": "plugin-jar",
     "defaultChannel": "stable",
     "channels": {
