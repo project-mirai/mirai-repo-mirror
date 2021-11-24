@@ -149,5 +149,13 @@
             "stable"
         ],
         "website": "https://github.com/gnuf0rce/rss-helper"
+    },
+    "io.github.gnuf0rce:netdisk-filesync-plugin": {
+        "name": "Netdisk FileSync Plugin",
+        "description": "百度云文件同步/备份 插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/gnuf0rce/Netdisk-FileSync-Plugin"
     }
 }
