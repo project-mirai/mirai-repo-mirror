@@ -166,5 +166,13 @@
             "stable"
         ],
         "website": "https://github.com/gnuf0rce/mirai-content-censor"
+    },
+    "xyz.cssxsh.mirai:mirai-hibernate-plugin": {
+        "name": "Mirai Hibernate Plugin",
+        "description": "Mirai Hibernate 前置插件",
+        "channels": [
+            "stable"
+        ],
+        "website": "https://github.com/cssxsh/mirai-hibernate-plugin"
     }
 }
