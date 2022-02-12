@@ -3,10 +3,15 @@
   "defaultChannel": "nightly",
   "channels": {
     "nightly": [
-      "2.5-RC-dev-3+5.3-SNAPSHOT"
+      "2.5-RC-dev-3+5.3-SNAPSHOT",
+      "2.10.0-dev-5+null"
     ]
   },
   "repo": {
+    "2.10.0-dev-5+null": {
+      "archive": "https://karlatemp.coding.net/p/pub/d/pub/git/raw/master/lpm/LuckPerms-Mirai-2.10.0-dev-5%2Bnull-all.jar",
+      "metadata": ""
+    },
     "2.5-RC-dev-3+5.3-SNAPSHOT": {
       "archive": "https://karlatemp.coding.net/p/pub/d/pub/git/raw/master/lpm/LuckPerms-Mirai-2.5-RC-dev-3%2B5.3-SNAPSHOT-all.jar",
       "metadata": ""
