@@ -3,7 +3,8 @@
   "defaultChannel": "stable",
   "channels": {
     "stable": [
-      "1.1.7"
+      "1.1.7",
+      "1.1.8"
     ]
   }
 }
