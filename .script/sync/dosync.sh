@@ -19,4 +19,7 @@ git config --local core.sshCommand "ssh -i ./private/id_rsa -F /dev/null -v"
 printf "%s" "put -r repo/* $MIRAI_REPO_PATH" >$TEMP_SFTP_FILE
 sftp -b $TEMP_SFTP_FILE -i $ID_FILE "mclsync@$MIRAI_REPO_SERVER"
 
+## Sync to mirai forum
 
+printf "%s" "put -r repo/* $MIRAI_FORUM_PATH" >$TEMP_SFTP_FILE
+sftp -b $TEMP_SFTP_FILE -i $ID_FILE "mclsync@$MIRAI_FORUM_SERVER"
