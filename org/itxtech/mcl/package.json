@@ -1,13 +1,14 @@
 {
     "type": "core",
     "defaultChannel": "stable",
-    "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n",
+    "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n \n如果无法获取Mirai-Repo信息, 例如启动时出现JSON解析错误\n请升级到MCL 1.2.3并将 config.json 中的 Mirai-Repo 更改为 https://repo.itxtech.org",
     "channels": {
         "stable": [
             "1.0.5",
             "1.1.0",
             "1.2.1",
-            "1.2.2"
+            "1.2.2",
+            "1.2.3"
         ]
     },
     "repo": {
@@ -22,6 +23,9 @@
         },
         "1.2.2": {
             "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.2/mcl-1.2.2.zip"
+        },
+        "1.2.3": {
+            "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mirai-console-loader/1.2.3/mirai-console-loader-1.2.3.zip"
         }
     }
 }
