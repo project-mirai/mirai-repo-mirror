@@ -18,8 +18,12 @@
 
 ## 仓库镜像
 
-* [Gitee](https://gitee.com/peratx/mirai-repo) - 主仓库
-* [GitHub](https://github.com/project-mirai/mirai-repo-mirror) - GitHub镜像
+* [GitHub project-mirai/mirai-repo-mirror](https://github.com/project-mirai/mirai-repo-mirror) - 主仓库
+* ~~[Gitee peratx/mirai-repo](https://gitee.com/peratx/mirai-repo)~~ - 原主仓库, 已停用
+* [`https://repo.iTXTech.org`](https://repo.itxtech.org) - Cloudflare Pages
+* [`https://mcl.repo.mamoe.net`](https://mcl.repo.mamoe.net) - GitHub Pages
+* [`https://repo.mirai.mamoe.net/keep/mcl`](https://repo.mirai.mamoe.net/keep/mcl) - Mamoe Repo Server
+* [`https://mirai.mamoe.net/assets/mcl`](https://mirai.mamoe.net/assets/mcl) - Mirai Forum
 
 ## `package.json` 参考格式
 
