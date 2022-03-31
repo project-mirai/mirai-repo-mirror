@@ -8,7 +8,8 @@
             "1.1.0",
             "1.2.1",
             "1.2.2",
-            "1.2.3"
+            "1.2.3",
+            "2.0.0-beta.1"
         ]
     },
     "repo": {
@@ -26,6 +27,9 @@
         },
         "1.2.3": {
             "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mirai-console-loader/1.2.3/mirai-console-loader-1.2.3.zip"
+        },
+        "2.0.0-beta.1": {
+            "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.1/mcl-2.0.0-beta.1.zip"
         }
     }
 }
