@@ -1,21 +1,24 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.2.8",
-            "1.3.0",
-            "1.3.2",
-            "1.3.3",
-            "1.3.4",
-            "1.3.5",
-            "1.3.6",
-            "1.3.7",
-            "1.3.8",
-            "1.3.9",
-            "1.3.10",
-            "1.3.11",
-            "1.3.12"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.2.8",
+      "1.3.0",
+      "1.3.2",
+      "1.3.3",
+      "1.3.4",
+      "1.3.5",
+      "1.3.6",
+      "1.3.7",
+      "1.3.8",
+      "1.3.9",
+      "1.3.10",
+      "1.3.11",
+      "1.3.12"
+    ]
+  },
+  "name": "Arknights Helper",
+  "description": "明日方舟 助手插件",
+  "website": "https://github.com/cssxsh/arknights-helper"
 }

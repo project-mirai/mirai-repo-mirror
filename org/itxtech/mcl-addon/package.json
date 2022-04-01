@@ -1,16 +1,16 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "c200",
-    "channels": {
-        "stable": [
-            "1.2.0",
-            "1.2.1"
-        ],
-        "c122": [
-            "1.2.2"
-        ],
-        "c200": [
-            "2.0.0"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "c200",
+  "channels": {
+    "stable": [
+      "1.2.0",
+      "1.2.1"
+    ],
+    "c122": [
+      "1.2.2"
+    ],
+    "c200": [
+      "2.0.0"
+    ]
+  }
 }

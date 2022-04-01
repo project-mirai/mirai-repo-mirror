@@ -1,21 +1,24 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.0.0",
-            "1.0.2",
-            "1.0.3",
-            "1.0.4",
-            "1.0.5",
-            "2.0.0",
-            "2.0.1",
-            "2.0.2",
-            "2.0.3",
-            "2.0.4",
-            "2.0.5",
-            "2.0.7",
-            "2.0.8"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.0",
+      "1.0.2",
+      "1.0.3",
+      "1.0.4",
+      "1.0.5",
+      "2.0.0",
+      "2.0.1",
+      "2.0.2",
+      "2.0.3",
+      "2.0.4",
+      "2.0.5",
+      "2.0.7",
+      "2.0.8"
+    ]
+  },
+  "name": "Mirai Selenium Plugin",
+  "description": "Mirai Selenium 前置插件",
+  "website": "https://github.com/cssxsh/mirai-selenium-plugin"
 }

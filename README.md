@@ -29,23 +29,29 @@
 
 ```json
 {
-    "announcement": "包公告",
-    "type": "core/plugin-jar/plugin-native/plugin-js等",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.0.0"
-        ]
-    },
-    "repo": {
-        "1.0.0": {
-            "archive": "https://example.org/org/example/1.0.0/example.zip",
-            "metadata": "https://example.org/org/example/1.0.0/example.metadata"
-        }
+  "announcement": "包公告",
+  "type": "core/plugin-jar/plugin-native/plugin-js/mcl-module等",
+  "defaultChannel": "stable",
+  "name": "包显示名称（为空则不在插件中心显示）",
+  "description": "简介（可空）",
+  "website": "网站，可为GitHub（可空）",
+  "forum": "Mirai Forum 帖子链接（可空）",
+  "logo": "Logo链接（可空，但不建议）",
+  "readme": "README.md链接（可空，链接请指向RAW）",
+  "channels": {
+    "stable": [
+      "1.0.0"
+    ]
+  },
+  "repo": {
+    "1.0.0": {
+      "archive": "https://example.org/org/example/1.0.0/example.zip",
+      "metadata": "https://example.org/org/example/1.0.0/example.metadata",
+      "sha1": "https://example.org/org/example/1.0.0/example.zip.sha1"
     }
+  }
 }
 ```
-
 
 ## 开源许可证
 

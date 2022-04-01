@@ -1,10 +1,10 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.0.0",
-            "1.0.1"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.0",
+      "1.0.1"
+    ]
+  }
 }

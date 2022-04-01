@@ -1,18 +1,21 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.0.1",
-            "1.0.4",
-            "2.0.0",
-            "2.0.1",
-            "2.0.2",
-            "2.0.3",
-            "2.0.4",
-            "2.0.5",
-            "2.0.6",
-            "2.0.7"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.1",
+      "1.0.4",
+      "2.0.0",
+      "2.0.1",
+      "2.0.2",
+      "2.0.3",
+      "2.0.4",
+      "2.0.5",
+      "2.0.6",
+      "2.0.7"
+    ]
+  },
+  "name": "Mirai Hibernate Plugin",
+  "description": "Mirai Hibernate 前置插件",
+  "website": "https://github.com/cssxsh/mirai-hibernate-plugin"
 }

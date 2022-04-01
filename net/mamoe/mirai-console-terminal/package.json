@@ -188,5 +188,8 @@
       "2.11.0-M2",
       "2.11.0-M2.1"
     ]
-  }
+  },
+  "name": "Mirai Console Terminal",
+  "description": "Mirai Console 终端前端",
+  "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
 }

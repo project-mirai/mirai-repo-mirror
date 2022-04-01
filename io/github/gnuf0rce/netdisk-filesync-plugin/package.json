@@ -9,5 +9,8 @@
       "1.2.5",
       "1.2.6"
     ]
-  }
+  },
+  "name": "Netdisk FileSync Plugin",
+  "description": "百度云文件同步/备份 插件",
+  "website": "https://github.com/gnuf0rce/Netdisk-FileSync-Plugin"
 }
