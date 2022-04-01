@@ -19,11 +19,11 @@
 ## 仓库镜像
 
 * [GitHub project-mirai/mirai-repo-mirror](https://github.com/project-mirai/mirai-repo-mirror) - 主仓库
-* ~~[Gitee peratx/mirai-repo](https://gitee.com/peratx/mirai-repo)~~ - 原主仓库, 已停用
 * [`https://repo.iTXTech.org`](https://repo.itxtech.org) - Cloudflare Pages
 * [`https://mcl.repo.mamoe.net`](https://mcl.repo.mamoe.net) - GitHub Pages
 * [`https://repo.mirai.mamoe.net/keep/mcl`](https://repo.mirai.mamoe.net/keep/mcl) - Mamoe Repo Server
 * [`https://mirai.mamoe.net/assets/mcl`](https://mirai.mamoe.net/assets/mcl) - Mirai Forum
+* ~~[Gitee peratx/mirai-repo](https://gitee.com/peratx/mirai-repo)~~ - 原主仓库, 已停用
 
 ## `package.json` 参考格式
 
@@ -55,7 +55,9 @@
 
 ## 开源许可证
 
-    Copyright (C) 2020-2021 iTX Technologies
+    Mirai Repo
+    Copyright (C) 2021-2022 Mamoe Technologies
+    Copyright (C) 2020-2022 iTX Technologies
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as

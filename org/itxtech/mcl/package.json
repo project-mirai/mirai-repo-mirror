@@ -1,4 +1,9 @@
 {
+  "name": "Mirai Console Loader",
+  "description": "模块化、轻量级且支持完全自定义的 mirai 加载器",
+  "website": "https://github.com/iTXTech/mirai-console-loader",
+  "forum": "https://mirai.mamoe.net/topic/177",
+  "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
   "type": "core",
   "defaultChannel": "stable",
   "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n \n如果无法获取Mirai-Repo信息, 例如启动时出现JSON解析错误\n请升级到MCL 1.2.3并将 config.json 中的 Mirai-Repo 更改为 https://repo.itxtech.org",
@@ -31,8 +36,5 @@
     "2.0.0-beta.1": {
       "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.1/mcl-2.0.0-beta.1.zip"
     }
-  },
-  "name": "Mirai Console Loader",
-  "description": "模块化、轻量级且支持完全自定义的 mirai 加载器",
-  "website": "https://github.com/iTXTech/mirai-console-loader"
+  }
 }

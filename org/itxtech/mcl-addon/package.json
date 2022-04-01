@@ -1,4 +1,9 @@
 {
+  "name": "MCL Addon",
+  "description": "在 Mirai Console 中使用MCL管理包和其他高级功能",
+  "website": "https://github.com/iTXTech/mcl-addon",
+  "forum": "https://mirai.mamoe.net/topic/423",
+  "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
   "type": "plugin-jar",
   "defaultChannel": "c200",
   "channels": {
