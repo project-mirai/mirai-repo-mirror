@@ -5,5 +5,8 @@
     "beta": [
       "0.0.5"
     ]
-  }
+  },
+  "name": "Silk Converter",
+  "description": "Convert audios to silk format",
+  "website": "https://github.com/project-mirai/mirai-silk-converter"
 }

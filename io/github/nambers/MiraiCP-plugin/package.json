@@ -1,23 +1,26 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "nightly": [
-            "2.7-RC-dev4",
-            "2.7-RC-dev5",
-            "2.7.0",
-            "2.7.1-patch-1",
-            "2.7.1-dev-1",
-            "2.8.0-M1",
-            "2.8.0-M2",
-            "2.9.0-M2"
-        ],
-        "stable":[
-            "2.7.0",
-            "2.7.1-patch-1",
-            "2.8.0",
-            "2.9.1",
-            "2.10.0"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "nightly": [
+      "2.7-RC-dev4",
+      "2.7-RC-dev5",
+      "2.7.0",
+      "2.7.1-patch-1",
+      "2.7.1-dev-1",
+      "2.8.0-M1",
+      "2.8.0-M2",
+      "2.9.0-M2"
+    ],
+    "stable": [
+      "2.7.0",
+      "2.7.1-patch-1",
+      "2.8.0",
+      "2.9.1",
+      "2.10.0"
+    ]
+  },
+  "name": "MiraiCP",
+  "description": "Mirai的一个C++ SDK",
+  "website": "https://github.com/Nambers/MiraiCP"
 }

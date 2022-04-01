@@ -1,9 +1,12 @@
 {
-    "type": "core",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.0-M4"
-        ]
-    }
+  "type": "core",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0-M4"
+    ]
+  },
+  "name": "Mirai Console Pure",
+  "description": "Mirai Console 终端前端（已弃用）",
+  "website": "https://github.com/mamoe/mirai-console/tree/master/frontend/mirai-console-terminal"
 }

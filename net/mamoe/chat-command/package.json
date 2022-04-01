@@ -1,13 +1,16 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "0.1.1",
-            "0.3.0",
-            "0.4.0",
-            "0.5.0",
-            "0.5.1"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "0.1.1",
+      "0.3.0",
+      "0.4.0",
+      "0.5.0",
+      "0.5.1"
+    ]
+  },
+  "name": "Chat Command",
+  "description": "允许在聊天环境执行指令",
+  "website": "https://github.com/project-mirai/chat-command"
 }

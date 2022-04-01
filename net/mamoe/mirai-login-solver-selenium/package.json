@@ -1,15 +1,18 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "nightly",
-    "channels": {
-        "nightly": [
-            "1.0-dev-4",
-            "1.0-dev-6",
-            "1.0-dev-11",
-            "1.0-dev-14",
-            "1.0-dev-15",
-            "1.0-dev-16",
-            "1.0-dev-17"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "nightly",
+  "channels": {
+    "nightly": [
+      "1.0-dev-4",
+      "1.0-dev-6",
+      "1.0-dev-11",
+      "1.0-dev-14",
+      "1.0-dev-15",
+      "1.0-dev-16",
+      "1.0-dev-17"
+    ]
+  },
+  "name": "mirai login solver selenium",
+  "description": "解决滑动验证码",
+  "website": "https://github.com/project-mirai/mirai-login-solver-selenium"
 }

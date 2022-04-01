@@ -16,27 +16,23 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Save Key
-        run: 'echo "$SYNC_KEY" > .script/id_rsa'
-        shell: bash
-        env:
-          SYNC_KEY: ${{secrets.SYNC_KEY}}
-      - name: Setup repo
-        run: "sh .script/setup.sh github gitee"
-      - name: "Pull repo"
-        run: "git pull github master"
-      - name: Checkout
-        run: "git checkout -B master --track github/master"
-      - name: "Pre re-save-key"
-        run: |
-          rm .script/id_rsa
-          exit 0
-      - name: Re-save Key
-        run: 'echo "$SYNC_KEY" > .script/id_rsa'
-        shell: bash
-        env:
-          SYNC_KEY: ${{secrets.SYNC_KEY}}
-      - name: Do Sync
-        run: "sh .script/dosync.sh github gitee"
 
+      - uses: actions/checkout@v3
+        with:
+          path: repo
+
+      - name: Save Key
+        run: |
+          mkdir private
+          echo "$SYNC_KEY" > private/id_rsa
+        shell: bash
+        env:
+          SYNC_KEY: ${{secrets.SYNC_KEY}}
+
+      - name: Do Sync
+        run: "sh repo/.script/sync/dosync.sh"
+        env:
+          MIRAI_REPO_SERVER: ${{secrets.MIRAI_REPO_SERVER}}
+          MIRAI_REPO_PATH: ${{secrets.MIRAI_REPO_PATH}}
+          MIRAI_FORUM_SERVER: ${{secrets.MIRAI_FORUM_SERVER}}
+          MIRAI_FORUM_PATH: ${{secrets.MIRAI_FORUM_PATH}}

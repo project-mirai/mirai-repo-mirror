@@ -12,5 +12,8 @@
       "1.1.1",
       "1.1.2"
     ]
-  }
+  },
+  "name": "Rss Helper",
+  "description": "简单的RSS订阅插件",
+  "website": "https://github.com/gnuf0rce/rss-helper"
 }

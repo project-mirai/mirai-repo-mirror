@@ -1,19 +1,26 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "beta",
-    "channels": {
-        "stable": [
-            "1.9.3",
-            "1.9.4",
-            "1.9.5",
-            "1.9.6"
-        ],
-        "beta": [
-            "1.9.3",
-            "1.9.4",
-            "1.9.5",
-            "1.9.6",
-            "2.0.0-beta.1"
-        ]
-    }
+  "name": "Mirai Native",
+  "description": "强大的mirai原生插件加载器",
+  "website": "https://github.com/iTXTech/mirai-native",
+  "forum": "https://mirai.mamoe.net/topic/1100",
+  "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.9.3",
+      "1.9.4",
+      "1.9.5",
+      "1.9.6",
+      "2.0.0"
+    ],
+    "beta": [
+      "1.9.3",
+      "1.9.4",
+      "1.9.5",
+      "1.9.6",
+      "2.0.0-beta.1",
+      "2.0.0"
+    ]
+  }
 }

@@ -1,16 +1,19 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.1.0",
-            "1.2.0",
-            "1.2.1"
-        ],
-        "beta": [
-            "1.1.0",
-            "1.2.0",
-            "1.2.1"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.1.0",
+      "1.2.0",
+      "1.2.1"
+    ],
+    "beta": [
+      "1.1.0",
+      "1.2.0",
+      "1.2.1"
+    ]
+  },
+  "name": "Mirai Js",
+  "description": "强大的 Mirai JavaScript 插件运行时",
+  "website": "https://github.com/iTXTech/mirai-js"
 }
