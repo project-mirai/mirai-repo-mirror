@@ -1,7 +1,7 @@
 module.exports = {
     protectedDomains: [
         'net.mamoe',
-        'org.itxitech',
+        'org.itxtech',
         'org.bouncycastle',
         'protected',
         'tmp',
