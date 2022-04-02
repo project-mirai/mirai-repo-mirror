@@ -1,5 +1,5 @@
 const fs = require("fs");
-const getAllPackages = require(__dirname + "/common");
+const getAllPackages = require("./common");
 
 const props = ["name", "description", "website", "defaultChannel", "type", "logo"];
 

@@ -29,6 +29,10 @@ jobs:
         env:
           SYNC_KEY: ${{secrets.SYNC_KEY}}
 
+      - name: Generate dyn generated files
+        run: node protected/page-build-prerun.js
+        working-directory: repo
+
       - name: Do Sync
         run: "sh repo/.script/sync/dosync.sh"
         env:
