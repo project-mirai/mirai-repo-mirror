@@ -1,0 +1,14 @@
+{
+  "name": "Soyuz",
+  "description": "为 Mirai Console 提供 Websocket 管理 API",
+  "website": "https://github.com/iTXTech/soyuz",
+  "forum": "https://mirai.mamoe.net/topic/1116",
+  "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.0"
+    ]
+  }
+}
