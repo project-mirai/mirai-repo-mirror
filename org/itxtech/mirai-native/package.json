@@ -4,6 +4,7 @@
   "website": "https://github.com/iTXTech/mirai-native",
   "forum": "https://mirai.mamoe.net/topic/1100",
   "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
+  "readme": "https://raw.githubusercontent.com/iTXTech/mirai-native/master/README.md",
   "type": "plugin-jar",
   "defaultChannel": "stable",
   "channels": {

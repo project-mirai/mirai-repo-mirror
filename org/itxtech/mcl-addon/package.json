@@ -4,8 +4,9 @@
   "website": "https://github.com/iTXTech/mcl-addon",
   "forum": "https://mirai.mamoe.net/topic/423",
   "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
+  "readme": "https://raw.githubusercontent.com/iTXTech/mcl-addon/master/README.md",
   "type": "plugin-jar",
-  "defaultChannel": "c200",
+  "defaultChannel": "c2001",
   "channels": {
     "stable": [
       "1.2.0",
@@ -17,6 +18,9 @@
     "c200": [
       "2.0.0",
       "2.0.1"
+    ],
+    "c2001": [
+      "2.0.2"
     ]
   }
 }
