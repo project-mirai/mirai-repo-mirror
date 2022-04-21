@@ -17,7 +17,8 @@
       "1.2.3",
       "2.0.0-beta.1",
       "2.0.0-beta.2",
-      "2.0.0-beta.3"
+      "2.0.0-beta.3",
+      "2.0.0"
     ]
   },
   "repo": {
@@ -44,6 +45,9 @@
     },
     "2.0.0-beta.3": {
       "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.3/mcl-2.0.0-beta.3.zip"
+    },
+    "2.0.0": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0/mcl-2.0.0.zip"
     }
   }
 }
