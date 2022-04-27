@@ -12,5 +12,6 @@ module.exports = {
         'io.github.karlatemp': ['Karlatemp'],
         'xyz.cssxsh': ['cssxsh'],
         'io.github.gnuf0rce': ['cssxsh'],
+        'com.hcyacg': ['Nekoer'],
     },
 };
