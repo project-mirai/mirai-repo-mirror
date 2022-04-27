@@ -1,0 +1,13 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.1.1"
+    ]
+  },
+  "name": "Mirai Plugins BiliBili",
+  "forum": "https://mirai.mamoe.net/topic/1129",
+  "description": "BiliBili推送",
+  "website": "https://github.com/Nekoer/mirai-plugins-bilibili"
+}

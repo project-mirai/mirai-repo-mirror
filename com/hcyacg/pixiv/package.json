@@ -1,0 +1,16 @@
+{
+  "type": "plugin-jar",
+  "announcement": "从1.6.5开始请使用Mirai 2.11.0-M2.2",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.6.6"
+    ],
+    "beta": [
+    ]
+  },
+  "name": "Mirai Plugins Pixiv",
+  "forum": "https://mirai.mamoe.net/topic/461",
+  "description": "可查看pixiv排行榜，作者作品，插画图片等等",
+  "website": "https://github.com/Nekoer/mirai-plugins-pixiv"
+}
