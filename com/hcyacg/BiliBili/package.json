@@ -3,7 +3,7 @@
   "defaultChannel": "stable",
   "channels": {
     "stable": [
-      "1.1.2"
+      "1.1.3"
     ]
   },
   "name": "Mirai Plugins BiliBili",
