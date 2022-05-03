@@ -8,5 +8,9 @@
       "1.1.9",
       "1.1.10"
     ]
-  }
+  },
+  "name": "Github Helper",
+  "description": "GitHub Notice 订阅插件",
+  "website": "https://github.com/gnuf0rce/github-helper",
+  "forum": "https://mirai.mamoe.net/post/3969"
 }

@@ -10,5 +10,6 @@
   },
   "name": "Mirai Content Censor 群内容审核插件",
   "description": "基于 Mirai Console 和 百度AI内容审核 的自动禁言助手",
-  "website": "https://github.com/gnuf0rce/mirai-content-censor"
+  "website": "https://github.com/gnuf0rce/mirai-content-censor",
+  "forum": "https://mirai.mamoe.net/post/1627"
 }
