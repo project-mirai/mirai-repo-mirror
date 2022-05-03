@@ -21,5 +21,9 @@
       "1.2.2",
       "1.2.3"
     ]
-  }
+  },
+  "name": "Debug Helper",
+  "description": "调试小工具",
+  "website": "https://github.com/gnuf0rce/debug-helper",
+  "forum": "https://mirai.mamoe.net/post/2867"
 }
