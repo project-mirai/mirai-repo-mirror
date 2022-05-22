@@ -7,7 +7,7 @@
   "readme": "https://raw.githubusercontent.com/iTXTech/mirai-console-loader/master/README.md",
   "type": "core",
   "defaultChannel": "stable",
-  "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n \n如果无法获取Mirai-Repo信息, 例如启动时出现JSON解析错误\n请升级到MCL 2.0 Beta并将 config.json 中的 Mirai-Repo 更改为 https://repo.itxtech.org\n",
+  "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n \nMCL 已推出 2.1.0，更好的支持 Mirai 2.11 的插件系统，建议更新。\n",
   "channels": {
     "stable": [
       "1.0.5",
@@ -19,7 +19,8 @@
       "2.0.0-beta.2",
       "2.0.0-beta.3",
       "2.0.0",
-      "2.0.1"
+      "2.0.1",
+      "2.1.0"
     ]
   },
   "repo": {
@@ -52,6 +53,9 @@
     },
     "2.0.1": {
       "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.1/mcl-2.0.1.zip"
+    },
+    "2.1.0": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.1.0/mcl-2.1.0.zip"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "type": "plugin-jar",
-  "defaultChannel": "stable",
+  "defaultChannel": "stable-v2",
   "channels": {
     "stable": [
       "1.9.6",
