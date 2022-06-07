@@ -12,6 +12,9 @@
       "1.0.6",
       "1.0.7",
       "1.1.0"
+    ],
+    "bata":[
+      "1.2.0-RC"
     ]
   },
   "name": "Mirai Administrator",
