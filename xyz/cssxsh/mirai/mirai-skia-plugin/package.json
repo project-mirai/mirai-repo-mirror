@@ -3,7 +3,8 @@
   "defaultChannel": "stable",
   "channels": {
     "stable": [
-      "1.1.0"
+      "1.1.0",
+      "1.1.1"
     ]
   },
   "name": "Mirai Skia Plugin",
