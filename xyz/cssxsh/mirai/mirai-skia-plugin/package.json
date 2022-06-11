@@ -1,0 +1,13 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.1.0"
+    ]
+  },
+  "name": "Mirai Skia Plugin",
+  "description": "Mirai Skia 前置插件",
+  "website": "https://github.com/cssxsh/mirai-skia-plugin",
+  "forum": "https://mirai.mamoe.net/post/6199"
+}

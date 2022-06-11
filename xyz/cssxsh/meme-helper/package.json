@@ -1,0 +1,13 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.2"
+    ]
+  },
+  "name": "Meme Helper",
+  "description": "表情包生成器",
+  "website": "https://github.com/cssxsh/meme-helper",
+  "forum": "https://mirai.mamoe.net/topic/1271"
+}
