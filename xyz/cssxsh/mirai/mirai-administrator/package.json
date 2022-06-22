@@ -12,15 +12,19 @@
       "1.0.6",
       "1.0.7",
       "1.1.0",
-      "1.2.0"
+      "1.2.0",
+      "1.2.1",
+      "1.2.2"
     ],
     "bata":[
       "1.2.0-RC",
-      "1.2.0"
+      "1.2.0",
+      "1.2.1",
+      "1.2.2"
     ]
   },
   "name": "Mirai Administrator",
   "description": "机器人管理插件",
   "website": "https://github.com/cssxsh/mirai-administrator",
-  "forum": "https://mirai.mamoe.net/post/8421"
+  "forum": "https://mirai.mamoe.net/topic/972"
 }
