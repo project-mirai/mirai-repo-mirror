@@ -1,5 +1,5 @@
 {
-  "announcement": "从 1.2.5 版本开始 将截图部分功能的转移至 https://github.com/cssxsh/mirai-selenium-plugin \n 如需使用截图模式，请安装 ./mcl --update-package xyz.cssxsh.mirai:mirai-selenium-plugin --channel stable --type plugin",
+  "announcement": "从 1.6.1 版本开始 使用 Ktor 2 ，需要 Mirai Console 2.12.0+ ",
   "type": "plugin-jar",
   "defaultChannel": "stable",
   "channels": {
@@ -31,7 +31,8 @@
       "1.4.13",
       "1.5.0",
       "1.5.1",
-      "1.6.0"
+      "1.6.0",
+      "1.6.1"
     ],
     "beta": [
       "1.4.0-RC",
@@ -56,7 +57,8 @@
       "1.5.0",
       "1.5.1",
       "1.6.0-M1",
-      "1.6.0"
+      "1.6.0",
+      "1.6.1"
     ]
   },
   "name": "BiliBili Helper",
