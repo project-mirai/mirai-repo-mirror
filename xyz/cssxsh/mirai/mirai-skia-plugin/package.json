@@ -4,11 +4,12 @@
   "channels": {
     "stable": [
       "1.1.0",
-      "1.1.1"
+      "1.1.1",
+      "1.1.2"
     ]
   },
   "name": "Mirai Skia Plugin",
   "description": "Mirai Skia 前置插件",
   "website": "https://github.com/cssxsh/mirai-skia-plugin",
-  "forum": "https://mirai.mamoe.net/post/6199"
+  "forum": "https://mirai.mamoe.net/topic/1153"
 }

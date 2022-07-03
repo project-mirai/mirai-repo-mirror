@@ -1,4 +1,5 @@
 {
+  "announcement": "从 2.3.0 版本开始 使用 Hibernate 6.0, 需要一起升级 Pixiv Helper 到 2.0",
   "type": "plugin-jar",
   "defaultChannel": "stable",
   "channels": {
@@ -17,11 +18,12 @@
       "2.2.1",
       "2.2.2",
       "2.2.3",
-      "2.2.4"
+      "2.2.4",
+      "2.3.0"
     ]
   },
   "name": "Mirai Hibernate Plugin",
   "description": "Mirai Hibernate 前置插件",
   "website": "https://github.com/cssxsh/mirai-hibernate-plugin",
-  "forum": "https://mirai.mamoe.net/post/7459"
+  "forum": "https://mirai.mamoe.net/topic/887"
 }
