@@ -19,18 +19,20 @@
       "1.3.13",
       "1.3.14",
       "1.4.0",
-      "1.4.1"
+      "1.4.1",
+      "1.4.2"
     ],
     "beta": [
       "1.3.13-M1",
       "1.3.13",
       "1.3.14",
       "1.4.0",
-      "1.4.1"
+      "1.4.1",
+      "1.4.2"
     ]
   },
   "name": "Arknights Helper",
   "description": "明日方舟 助手插件",
   "website": "https://github.com/cssxsh/arknights-helper",
-  "forum": "https://mirai.mamoe.net/post/985"
+  "forum": "https://mirai.mamoe.net/topic/203"
 }
