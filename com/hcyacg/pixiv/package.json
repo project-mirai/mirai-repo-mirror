@@ -4,7 +4,7 @@
   "defaultChannel": "stable",
   "channels": {
     "stable": [
-      "1.6.8"
+      "1.7.4"
     ],
     "beta": [
     ]
