@@ -1,0 +1,14 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "name": "Mesagisto-Mirai",
+  "description": "致力于通过消息转发连接不同的即时通讯平台。",
+  "website": "https://github.com/MeowCat-Studio/mesagisto",
+  "logo": "https://avatars.githubusercontent.com/u/88523808?s=400&v=4",
+  "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
+  "channels": {
+    "stable": [
+      "1.4.0"
+    ]
+  }
+}
