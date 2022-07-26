@@ -13,5 +13,6 @@ module.exports = {
         'xyz.cssxsh': ['cssxsh'],
         'io.github.gnuf0rce': ['cssxsh'],
         'com.hcyacg': ['Nekoer'],
+        'org.mesagisto': ['MesagistoBot'],
     },
 };
