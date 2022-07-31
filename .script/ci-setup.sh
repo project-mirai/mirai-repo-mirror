@@ -6,8 +6,7 @@ echo $BASE_SHA
 CURRENT_B=$(git branch --show-current)
 echo $CURRENT_B
 
-git branch "$BASE_SHA" THE_BASE1
-git branch "$CURRENT_B" THE_BASE
+git branch THE_BASE "$CURRENT_B"
 git branch THE_PR THE_PR_PR0
 
 echo "============"
