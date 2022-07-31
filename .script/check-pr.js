@@ -118,6 +118,8 @@ async function main() {
 
         await fireError(""
             + "Automatic checking failed:\n\n" + all_failures.join("\n\n") + "\n\n ---------------\n\n"
+            + "当一切无误后，请将此 PR 转为 `Draft` 再标记回 `Ready for review`\n\n"
+            + "> 将 PR 标记为 Draft 的方法: PR 页右上角有一方 `Convert to draft`"
         )
         // https://api.github.com/repos/OWNER/REPO/pulls/PULL_NUMBER/requested_reviewers
 
@@ -126,7 +128,7 @@ async function main() {
             host: 'api.github.com',
             port: 443,
             path: `/repos/${process.env.REPO_N}/pulls/${process.env.PR_NUM}/requested_reviewers`,
-            method: 'PUT',
+            method: 'POST',
             headers: {
                 'User-Agent': 'NodeJs/10',
                 'Content-Type': 'application/vnd.github.v3+json',
