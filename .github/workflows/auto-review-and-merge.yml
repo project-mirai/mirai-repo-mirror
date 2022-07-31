@@ -20,10 +20,12 @@ jobs:
       # It checkout the origin repository not pull request. Very safe
       - uses: actions/checkout@v2
       - name: Pre setup
+        shell: sh
         run: |
           git fetch origin pull/$PR_NUM/head:THE_PR
           echo $BASE_SHA
 
+          git merge-base $BASE_SHA THE_PR
           FORK_POINT=$(git merge-base $BASE_SHA THE_PR)
           echo $FORK_POINT
 
