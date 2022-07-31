@@ -2,13 +2,16 @@
 
 git fetch origin pull/$PR_NUM/head:THE_PR_PR0
 echo $BASE_SHA
-git branch
 
 CURRENT_B=$(git branch --show-current)
 echo $CURRENT_B
 
-git branch $BASE_SHA THE_BASE
+git branch $CURRENT_B THE_BASE
 git branch THE_PR THE_PR_PR0
+
+echo "============"
+git branch
+echo "============"
 
 echo "W1:"
 git merge-base $BASE_SHA THE_PR
