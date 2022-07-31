@@ -104,12 +104,12 @@ async function main() {
         if (!hasDomain) {
             noDomainFiles.push(file);
         } else if (!passed) {
-            all_failures.push("No permission to modify domain `" + matchedDomain + '`: ' + file)
+            all_failures.push("No permission to modify domain `" + matchedDomain + '`: `' + file + '`')
         }
     }
 
     if (noDomainFiles.length !== 0) {
-        all_failures.push("Modifying dummy files:\n\n- " + noDomainFiles.join("\n- "))
+        all_failures.push("Modifying dummy files:\n\n- `" + noDomainFiles.join("`\n- `") + '`')
     }
 
     // noinspection EqualityComparisonWithCoercionJS
@@ -118,8 +118,30 @@ async function main() {
 
         await fireError(""
             + "Automatic checking failed:\n\n" + all_failures.join("\n\n") + "\n\n ---------------\n\n"
-            + "@project-mirai/mirai-repo-review"
         )
+        // https://api.github.com/repos/OWNER/REPO/pulls/PULL_NUMBER/requested_reviewers
+
+
+        let requestReviewRequest = require('https').request({
+            host: 'api.github.com',
+            port: 443,
+            path: `/repos/${process.env.REPO_N}/pulls/${process.env.PR_NUM}/requested_reviewers`,
+            method: 'PUT',
+            headers: {
+                'User-Agent': 'NodeJs/10',
+                'Content-Type': 'application/vnd.github.v3+json',
+                'Authorization': `token ${RW_TOKEN}`,
+            }
+        }, rsp => {
+            rsp.on('data', d => {
+                process.stdout.write(d);
+            });
+        });
+        requestReviewRequest.write(JSON.stringify({
+            // "reviewers": ["octocat", "hubot", "other_user"],
+            "team_reviewers": ["mirai-repo-review"]
+        }));
+        requestReviewRequest.end();
         return
     }
 

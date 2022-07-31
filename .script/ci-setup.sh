@@ -7,8 +7,8 @@ git branch
 CURRENT_B=$(git branch --show-current)
 echo $CURRENT_B
 
-git merge-base "$CURRENT_B" THE_PR
-FORK_POINT=$(git merge-base "$CURRENT_B" THE_PR)
+git merge-base --fork-point "$CURRENT_B" THE_PR
+FORK_POINT=$(git merge-base --fork-point "$CURRENT_B" THE_PR)
 echo $FORK_POINT
 
 git rev-list --count "$FORK_POINT..THE_PR" > tmp/count
