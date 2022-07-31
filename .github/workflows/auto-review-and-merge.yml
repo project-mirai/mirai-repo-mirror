@@ -24,9 +24,10 @@ jobs:
         run: |
           git fetch origin pull/$PR_NUM/head:THE_PR
           echo $BASE_SHA
+          git branch
 
-          git merge-base $BASE_SHA THE_PR
-          FORK_POINT=$(git merge-base $BASE_SHA THE_PR)
+          git merge-base "$BASE_SHA" THE_PR
+          FORK_POINT=$(git merge-base "$BASE_SHA" THE_PR)
           echo $FORK_POINT
 
           git rev-list --count "$FORK_POINT..THE_PR" > tmp/count
