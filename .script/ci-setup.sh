@@ -7,7 +7,12 @@ git branch
 CURRENT_B=$(git branch --show-current)
 echo $CURRENT_B
 
+echo "W1:"
+git merge-base $BASE_SHA THE_PR
+echo "W2:"
 git merge-base --fork-point "$CURRENT_B" THE_PR
+echo "END"
+
 FORK_POINT=$(git merge-base --fork-point "$CURRENT_B" THE_PR)
 echo $FORK_POINT
 
