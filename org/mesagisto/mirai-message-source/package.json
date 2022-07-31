@@ -8,11 +8,12 @@
   "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
   "channels": {
     "stable": [
-      "1.5.3"
+      "1.5.4"
     ],
     "pre-release": [
       "latest"
     ]
+  },
   "repo": {
     "latest": {
       "archive": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar",
