@@ -8,14 +8,14 @@
   "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
   "channels": {
     "stable": [
-      "${steps.get-latest-tag.outputs.tag#v}"
+      "v1.5.4"
     ],
     "pre-release": [
-      "latest-20220731090021"
+      "latest-20220731090705"
     ]
   },
   "repo": {
-    "latest-20220731090021": {
+    "latest-20220731090705": {
       "archive": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar",
       "sha1": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar.sha1",
       "metadata": ""
