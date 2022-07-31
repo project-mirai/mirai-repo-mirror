@@ -4,6 +4,7 @@
   "channels": {
     "stable": [
       "1.64"
+
     ]
   }
 }

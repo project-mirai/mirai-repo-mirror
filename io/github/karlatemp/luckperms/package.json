@@ -5,6 +5,7 @@
     "nightly": [
       "2.5-RC-dev-3+5.3-SNAPSHOT",
       "2.10.0-dev-5+null",
+
       "2.10.0-dev-6+null"
     ]
   },
