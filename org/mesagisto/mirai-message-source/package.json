@@ -11,13 +11,13 @@
       "1.5.4"
     ],
     "pre-release": [
-      "beta-20220801162119"
+      "beta-20220806121658"
     ]
   },
   "repo": {
-    "beta-20220801162119": {
-      "archive": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/beta-20220801162119/mesagisto.mirai2.jar",
-      "sha1": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/beta-20220801162119/mesagisto.mirai2.jar.sha1",
+    "beta-20220806121658": {
+      "archive": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/beta-20220806121658/mesagisto.mirai2.jar",
+      "sha1": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/beta-20220806121658/mesagisto.mirai2.jar.sha1",
       "metadata": ""
     }
   }
