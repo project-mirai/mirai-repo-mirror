@@ -1,0 +1,13 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "stable",
+  "channels": {
+    "stable": [
+      "1.0.1"
+    ]
+  },
+  "name": "Mirai TTS Plugin",
+  "description": "Mirai TTS 前置插件",
+  "website": "https://github.com/cssxsh/mirai-tts-plugin",
+  "forum": "https://mirai.mamoe.net/topic/1456"
+}

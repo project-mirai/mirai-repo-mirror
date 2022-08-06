@@ -6,11 +6,12 @@
       "1.0.0",
       "1.0.1",
       "1.0.2",
-      "1.1.0"
+      "1.1.0",
+      "1.1.1"
     ]
   },
   "name": "Mirai Device Generator",
   "description": "Mirai DeviceInfo 生成器",
   "website": "https://github.com/cssxsh/mirai-device-generator",
-  "forum": "https://mirai.mamoe.net/post/8175"
+  "forum": "https://mirai.mamoe.net/topic/952"
 }
