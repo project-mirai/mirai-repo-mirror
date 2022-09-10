@@ -8,7 +8,7 @@
   "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
   "channels": {
     "stable": [
-      "1.5.4"
+      "1.6.0-rc2"
     ],
     "pre-release": [
       "beta-20220910073325"
