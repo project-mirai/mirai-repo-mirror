@@ -8,6 +8,10 @@ const COMMENT = 'COMMENT';
 
 if (actor === undefined) process.exit(5);
 
+function resolvePrFile(file) {
+    return require('path').join('tmp/fork', file)
+}
+
 async function main() {
     console.log("Main called");
     console.log("Conf: ", config);
@@ -81,6 +85,20 @@ async function main() {
             }
         }
     }
+
+    /// region json format verify
+    for (let file of nameChanged.split('\n')) {
+        if (file.toLowerCase().endsWith('.json')) {
+            try {
+                JSON.parse(fs.readFileSync(resolvePrFile(file)).toString('utf-8'))
+            } catch (e) {
+                console.error(e);
+                all_failures.push("Error when checking `" + file + '`:\n```\n' + e.stack + "\n```\n")
+            }
+        }
+    }
+    /// endregion
+
     let noDomainFiles = [];
     for (let file of nameChanged.split('\n')) {
         let dom = file.replace('/', '.');

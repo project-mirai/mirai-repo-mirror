@@ -34,3 +34,17 @@ git rev-list --count "$FORK_POINT..THE_PR" > tmp/count
 cat tmp/count
 git --no-pager diff "$FORK_POINT..THE_PR" --no-color --output tmp/change-diff
 git --no-pager diff "$FORK_POINT..THE_PR" --name-only --output tmp/name-changed
+
+# Prepare fork repo
+
+cd tmp
+git clone .. fork
+cd fork
+
+git checkout -f THE_PR
+
+echo "-- THE FORK --"
+
+pwd
+git branch
+
