@@ -2,7 +2,7 @@
   "announcement": "如果是在使用2.12.0-RC2版本, 请不要使用自动下载版本, 而是去Github Release手动下载",
   "name": "MiraiCP",
   "description": "Mirai的一个C++ SDK",
-  "website": "https://github.com/Nambers/MiraiCP"
+  "website": "https://github.com/Nambers/MiraiCP",
   "type": "plugin-jar",
   "defaultChannel": "stable",
   "forum": "https://mirai.mamoe.net/topic/532/miraicp-c-sdk",
