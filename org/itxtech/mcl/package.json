@@ -57,6 +57,9 @@
     },
     "2.1.0": {
       "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.1.0/mcl-2.1.0.zip"
+    },
+    "2.1.2": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.1.2/mcl-2.1.2.zip"
     }
   }
 }
