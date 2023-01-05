@@ -7,8 +7,15 @@
   "logo": "https://avatars.githubusercontent.com/u/88523808?s=400&v=4",
   "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
   "channels": {
-    "stable": [
-      "1.6.1"
+    "latest": [
+      "latest"
     ]
+  },
+  "repo": {
+    "latest": {
+      "archive": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar",
+      "sha1": "",
+      "metadata": ""
+    }
   }
 }
