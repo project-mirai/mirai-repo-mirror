@@ -7,7 +7,7 @@
   "logo": "https://avatars.githubusercontent.com/u/88523808?s=400&v=4",
   "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
   "channels": {
-    "pre-release": [
+    "latest": [
       "latest"
     ]
   },
