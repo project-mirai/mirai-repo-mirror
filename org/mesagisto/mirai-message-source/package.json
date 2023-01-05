@@ -13,9 +13,7 @@
   },
   "repo": {
     "latest": {
-      "archive": "https://ghproxy.com/https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar",
-      "sha1": "",
-      "metadata": ""
+      "archive": "https://ghproxy.com/github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar"
     }
   }
 }
