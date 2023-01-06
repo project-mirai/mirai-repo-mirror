@@ -13,9 +13,9 @@
   },
   "repo": {
     "latest": {
-      "archive": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source.mirai2.jar",
-      "sha1": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source.mirai2.jar.sha1",
-      "metadata": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai.metadata"
+      "archive": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai2.jar",
+      "sha1": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai2.jar.sha1",
+      "metadata": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai.metadata"
     }
   }
 }
