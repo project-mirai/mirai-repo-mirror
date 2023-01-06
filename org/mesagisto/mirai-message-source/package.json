@@ -10,6 +10,7 @@
     "latest": [
       "latest"
     ]
+  },
   "repo": {
     "latest": {
       "archive": "https://github.com/Mesagisto/mirai-message-source/releases/download/latest/mesagisto.mirai2.jar",
