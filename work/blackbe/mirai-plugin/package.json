@@ -1,0 +1,31 @@
+{
+    "announcement": "包公告",
+    "type": "plugin-jar",
+    "defaultChannel": "stable",
+    "name": "BlackBE",
+    "description": "BlackBE QQ群机器人，我的世界云黑机器人",
+    "website": "blackbe.work",
+    "logo": "https://wiki.blackbe.work/images/Logo.png",
+    "readme": "https://raw.githubusercontent.com/BlackBEDevelopment/BlackBE-MiraiPlugin/master/README.md",
+    "channels": {
+        "stable": [
+            "3.1.0",
+            "3.0.1",
+            "3.0.0"
+        ]
+    },
+    "repo": {
+        "3.1.0": {
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.1.0/blackbe-3.1.0.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.1.0/blackbe-3.1.0.mirai2.jar.sha1"
+        },
+        "3.0.1": {
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.1/blackbe-3.0.1.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.1/blackbe-3.0.1.mirai2.jar.sha1"
+        },
+        "3.0.0": {
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.0/blackbe-3.0.0.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.0/blackbe-3.0.0.mirai2.jar.sh1"
+        }
+    }
+}
