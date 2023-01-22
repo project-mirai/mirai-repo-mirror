@@ -16,13 +16,16 @@
     },
     "repo": {
         "3.1.0": {
-            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.1.0/blackbe-3.1.0.mirai2.jar"
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.1.0/blackbe-3.1.0.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.1.0/blackbe-3.1.0.mirai2.jar.sha1"
         },
         "3.0.1": {
-            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.1/blackbe-3.0.1.mirai2.jar"
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.1/blackbe-3.0.1.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.1/blackbe-3.0.1.mirai2.jar.sha1"
         },
         "3.0.0": {
-            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.0/blackbe-3.0.0.mirai2.jar"
+            "archive": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.0/blackbe-3.0.0.mirai2.jar",
+            "sha1": "https://github.com/BlackBEDevelopment/BlackBE-MiraiPlugin/releases/download/3.0.0/blackbe-3.0.0.mirai2.jar.sh1"
         }
     }
 }
