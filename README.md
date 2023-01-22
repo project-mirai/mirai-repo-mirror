@@ -53,6 +53,20 @@
 }
 ```
 
+## README 修改参考模板
+
+```
+
+## 安装 `my-plugin`
+
+### 使用 mirai-console-loader 安装 `my-plugin`
+
+`./mcl --update-package ${{packageid}} --channel $${channel}} --type plugin`
+
+### 手动安装
+
+```
+
 ## 开源许可证
 
     Mirai Repo
