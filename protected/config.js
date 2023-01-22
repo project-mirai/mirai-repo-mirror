@@ -14,5 +14,6 @@ module.exports = {
         'io.github.gnuf0rce': ['cssxsh'],
         'com.hcyacg': ['Nekoer'],
         'org.mesagisto': ['MesagistoBot'],
+        'work.blackbe': ['BlackBEBot'],
     },
 };
