@@ -12,6 +12,7 @@ module.exports = {
         'io.github.karlatemp': ['Karlatemp'],
         'xyz.cssxsh': ['cssxsh'],
         'io.github.gnuf0rce': ['cssxsh'],
+        'io.github.argonariod': ['ArgonarioD'],
         'com.hcyacg': ['Nekoer'],
         'org.mesagisto': ['MesagistoBot'],
         'work.blackbe': ['BlackBEBot'],
