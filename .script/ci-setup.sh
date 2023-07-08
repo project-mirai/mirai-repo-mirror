@@ -8,6 +8,7 @@ echo $CURRENT_B
 
 git branch THE_BASE "$CURRENT_B"
 git branch THE_PR THE_PR_PR0
+git fetch --unshallow
 
 echo "============"
 git branch
